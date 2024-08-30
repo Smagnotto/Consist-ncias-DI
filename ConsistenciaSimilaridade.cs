@@ -41,7 +41,7 @@ namespace InconsistenciasDeclaracaoImportacao
 
             //AGORA FAÇO O QUE AQUI???????
 
-
+            //AJUSTAR REGRAS AQUI
             bool hasMatch = exportadoresAgrupados
                 .Exists(exportador => pagadoresAgrupados.Any(pagador => compareJaroDistance.Equals(pagador.Nome, exportador.Nome) && pagador.Valor == exportador.ValorAplicado));
 
